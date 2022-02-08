@@ -19,8 +19,8 @@ export default function BeanieDetail() {
     <>
       {/* Feel free to uncomment and use the below code--but you'll need to figure out how to keep it from blowing up on load */}
       
-      {/* <Link to='/'>Home</Link>
-      <div className='beanie-detail' onClick={handleBeanieClick}>
+      <Link to='/'>Home</Link>
+      {/* <div className='beanie-detail' onClick={handleBeanieClick}>
         <div className='beanie-data'>
           <p>{beanieBaby.animal}</p>
           <p>{beanieBaby.title}</p>
