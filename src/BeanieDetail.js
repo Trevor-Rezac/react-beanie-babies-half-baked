@@ -8,7 +8,7 @@ export default function BeanieDetail() {
   const [beanieBaby, setBeanieBaby] = useState({});
   // you'll need to get the route param using the appropriate react router hook
   const params = useParams();
-  console.log('||', beanieBaby);
+  // console.log('||', beanieBaby);
 
   useEffect(() => {
     // you'll need to define a fetch function here (then call it below) that gets this page's beanie baby and injects it into state using the correct state handler
